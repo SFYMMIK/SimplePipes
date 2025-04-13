@@ -51,9 +51,8 @@ void print_help() {
     printf("Usage: pipes [options]\n\n");
     printf("Options:\n");
     printf("  --cli             Run in CLI (terminal) mode\n");
-    printf("  --gui             Run in 3D GUI mode (OpenGL)\n");
     printf("  --color [name]    Set pipe color: red, green, yellow, blue, magenta, cyan, white, gray, rainbow\n");
-    printf("  --flicker         Enable flickering rainbow mode (CLI only)\n");
+    printf("  --flicker         Enable flickering rainbow mode\n");
     printf("  --speed [ms]      Delay in milliseconds between frames (default: 100)\n");
     printf("  --hm [number]     How many pipes to generate (default: 1, max: 16)\n");
     printf("  -h                Show this help message\n");
