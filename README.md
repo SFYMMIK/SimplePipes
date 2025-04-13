@@ -4,5 +4,5 @@
 
 # Compiling + adding as executable command
 ```sh
-gcc main.c -o spipes && mv spipes /usr/local/bin/
+gcc main.c -o spipes && sudo mv spipes /usr/local/bin/
 ```
